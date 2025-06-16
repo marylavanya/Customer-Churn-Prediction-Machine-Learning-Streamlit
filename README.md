@@ -19,6 +19,9 @@ A machine learning project that predicts whether a customer is likely to churn b
 
 The Gradient Boosting model achieved a high F1-score (0.91) and precision (0.96), ensuring accurate churn prediction with minimal false positives. Its strong accuracy (0.85) reflects reliable performance across both churned and retained customers.
 ### Final Model Selection: Gradient Boosting Classifier
+🔗 **Live App:**  
+[Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
+
 ## Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
