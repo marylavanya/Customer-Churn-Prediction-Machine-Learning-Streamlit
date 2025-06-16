@@ -1,6 +1,8 @@
 # Customer-Churn-Prediction-Machine-Learning-Streamlit
+![image](https://github.com/user-attachments/assets/e36b8886-0a41-4dda-9cec-6dfc8bb9619a)
 ## What is  Customer Churn?
 Customer churn refers to when a customer stops using a company’s service. In this project, churn prediction helps identify users who are likely to leave, allowing businesses to take proactive steps to retain them.
+# Table of contents
 ## Project Overview
 A machine learning project that predicts whether a customer is likely to churn based on key behavioral indicators. This solution includes an end-to-end pipeline from data cleaning and model training to interactive deployment via Streamlit.
 ## Objective
