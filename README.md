@@ -6,7 +6,12 @@ Customer churn refers to when a customer stops using a company’s service. In t
 - [Project Overview](#project-overview)
 - [Objective](#objective)
 - [Model Comparison for Churn Prediction](model-comparison-for-churn-prediction)
+- [Final Model Selection](final-model-selection)
 - [Live Application](live-application)
+- [Sample Predictions](sample-predictions)
+- [Key Insights](key-insights)
+- [Recommendations](recommendations)
+- [Business Impact](business-impact)
 ## Project Overview
 A machine learning project that predicts whether a customer is likely to churn based on key behavioral indicators. This solution includes an end-to-end pipeline from data cleaning and model training to interactive deployment via Streamlit.
 ## Objective
