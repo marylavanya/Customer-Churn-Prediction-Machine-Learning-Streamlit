@@ -5,7 +5,7 @@ Customer churn refers to when a customer stops using a company’s service. In t
 ## 🚀 Live Application
 [Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
 # 📚 Table of contents
-- [📊Project Overview](#project-overview)
+- [Project Overview](#project-overview)
 - [Objective](objective)
 - [Model Comparison for Churn Prediction](model-comparison-for-churn-prediction)
 - [Final Model Selection](final-model-selection)
