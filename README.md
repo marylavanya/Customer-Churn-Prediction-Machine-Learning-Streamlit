@@ -23,8 +23,8 @@ A machine learning project that predicts whether a customer is likely to churn b
 | **XGBoost**           | 0.87               | 0.81             | 0.95                | 0.79     | 0.84     |
 | **Decision Tree**     | 0.86               | 0.79             | 0.95                | 0.78     | 0.78     |
 
-The Gradient Boosting model achieved a high F1-score (0.91) and precision (0.96), ensuring accurate churn prediction with minimal false positives. Its strong accuracy (0.85) reflects reliable performance across both churned and retained customers.
-### Final Model Selection: Gradient Boosting Classifier
+## Final Model Selection
+**Gradient Boosting Classifier** was chosen due to its strong F1-score (0.91) and precision (0.96), ensuring accurate churn prediction with minimal false positives. Its overall accuracy (0.85) reflects solid general performance.
 ## Live Application
 [Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
  ## Sample Predictions
@@ -45,8 +45,6 @@ Use the following examples in the app to test behavior:
 - Gender: Male
   
 **Prediction**: Customer is likely to **Not Churned**
-![image](https://github.com/user-attachments/assets/2adbe0a1-32f4-4666-a16b-e29225438d5d)
-
 ## Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
@@ -57,3 +55,9 @@ Use the following examples in the app to test behavior:
 * Churn increases with age; consider designing age-specific loyalty programs or promotions.
 * Consider onboarding initiatives such as “welcome packages”, “quick start guides”, or “new-customer incentives” to help first-year customers find more value in your service.
 * Offer gifts or discounts to celebrate tenure milestones at 3, 6, and 12 months.
+## Business Impact
+ This project empowers strategic decision-making and customer retention efforts through:
+- **Early churn identification:** Helps prevent revenue loss by detecting at-risk customers before they leave.
+- **Revenue growth:** Retaining high-value customers directly boosts recurring revenue and reduces acquisition costs.
+- **Personalized interventions:** Enables marketing and support teams to tailor promotions, communications, and service enhancements based on churn risk.
+- **Customer lifetime value optimization:** Prolongs customer relationships, improving profitability and satisfaction over time.
