@@ -44,16 +44,16 @@ Use the following examples in the app to test behavior:
 **Prediction**: Customer is likely to **Churn**
 
 ----
-### 🟢 Likely to Not Churned
+### 🟢 Likely to Not Churn
 - Age: 45  
 - Tenure: 60  
 - Monthly Charges: 40.00    
 - Gender: Male
   
-**Prediction**: Customer is likely to **Not Churned**
+**Prediction**: Customer is likely to **Not Churn**
 ## 💻How to Run Locally
 To run the app on your own system:
-### 🛠️Prerequisites
+### 🛠️Pre-requisites
 - Python 3.10 or Higher installed   
 - Git installed  
 ### 📝 Steps
