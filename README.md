@@ -2,12 +2,13 @@
 ![image](https://github.com/user-attachments/assets/e36b8886-0a41-4dda-9cec-6dfc8bb9619a)
 ## What is  Customer Churn?
 Customer churn refers to when a customer stops using a company’s service. In this project, churn prediction helps identify users who are likely to leave, allowing businesses to take proactive steps to retain them.
+## Live Application
+[Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
 # Table of contents
 - [Project Overview](project-overview)
 - [Objective](objective)
 - [Model Comparison for Churn Prediction](model-comparison-for-churn-prediction)
 - [Final Model Selection](final-model-selection)
-- [Live Application](live-application)
 - [Sample Predictions](sample-predictions)
 - [Key Insights](key-insights)
 - [Recommendations](recommendations)
@@ -30,8 +31,7 @@ A machine learning project that predicts whether a customer is likely to churn b
 
 ## Final Model Selection
 **Gradient Boosting Classifier** was chosen due to its strong F1-score (0.91) and precision (0.96), ensuring accurate churn prediction with minimal false positives. Its overall accuracy (0.85) reflects solid general performance.
-## Live Application
-[Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
+
  ## Sample Predictions
 Use the following examples in the app to test behavior:
 ### Likely to Churn
@@ -57,18 +57,18 @@ To run the app on your own system:
 - Git installed  
 ### Steps
 ### 1. Clone the repository
-````
+```
 git clone https://github.com/marylavanya/Customer-Churn-Prediction-Machine-Learning-Streamlit.git
 cd Customer-Churn-Prediction-Machine-Learning-Streamlit
-````
+```
 ### 2. Install dependencies
-````
+```
 pip install -r requirements.txt
-````
+```
 ### 3. Launch the app
-````
+```
 streamlit run app.py
-````
+```
 ## Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
