@@ -3,8 +3,8 @@
 ## What is  Customer Churn?
 Customer churn refers to when a customer stops using a company’s service. In this project, churn prediction helps identify users who are likely to leave, allowing businesses to take proactive steps to retain them.
 # Table of contents
-- [Project Overview](#project-overview)
-- [Objective](#objective)
+- [Project Overview](project-overview)
+- [Objective](objective)
 - [Model Comparison for Churn Prediction](model-comparison-for-churn-prediction)
 - [Final Model Selection](final-model-selection)
 - [Live Application](live-application)
