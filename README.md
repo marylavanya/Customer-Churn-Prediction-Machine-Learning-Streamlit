@@ -45,6 +45,7 @@ Use the following examples in the app to test behavior:
 - Gender: Male
   
 **Prediction**: Customer is likely to **Not Churned**
+![image](https://github.com/user-attachments/assets/2adbe0a1-32f4-4666-a16b-e29225438d5d)
 
 ## Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
