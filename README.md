@@ -23,7 +23,26 @@ The Gradient Boosting model achieved a high F1-score (0.91) and precision (0.96)
 ### Final Model Selection: Gradient Boosting Classifier
 🔗 **Live App:**  
 [Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
+## Sample Screenshot 
 
+## Sample Predictions
+Use the following examples in the app to test behavior:
+### Likely to Churn
+- Age: 22  
+- Tenure: 1  
+- Monthly Charges: 95.00  
+- Gender: Female
+  
+**Prediction**: Customer is likely to **Churn**
+
+----
+### Likely to Not Churned
+- Age: 45  
+- Tenure: 60  
+- Monthly Charges: 40.00    
+- Gender: Male
+  
+**Prediction**: Customer is likely to **Not Churned**
 ## Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
