@@ -69,6 +69,7 @@ pip install -r requirements.txt
 ```
 streamlit run app.py
 ```
+
 ## 📌Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
