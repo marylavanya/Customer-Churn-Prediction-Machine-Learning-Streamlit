@@ -50,6 +50,25 @@ Use the following examples in the app to test behavior:
 - Gender: Male
   
 **Prediction**: Customer is likely to **Not Churned**
+## Run Locally
+To run the app on your own system:
+### Prerequisites
+- Python 3.10 installed  
+- Git installed  
+### Steps
+### 1. Clone the repository
+````
+git clone https://github.com/marylavanya/Customer-Churn-Prediction-Machine-Learning-Streamlit.git
+cd Customer-Churn-Prediction-Machine-Learning-Streamlit
+````
+### 2. Install dependencies
+````
+pip install -r requirements.txt
+````
+### 3. Launch the app
+````
+streamlit run app.py
+````
 ## Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
