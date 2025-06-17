@@ -3,6 +3,10 @@
 ## What is  Customer Churn?
 Customer churn refers to when a customer stops using a company’s service. In this project, churn prediction helps identify users who are likely to leave, allowing businesses to take proactive steps to retain them.
 # Table of contents
+- [Project Overview](#project-overview)
+- [Objective](#objective)
+- [Model Comparison for Churn Prediction](model-comparison-for-churn-prediction)
+- [Live Application](live-application)
 ## Project Overview
 A machine learning project that predicts whether a customer is likely to churn based on key behavioral indicators. This solution includes an end-to-end pipeline from data cleaning and model training to interactive deployment via Streamlit.
 ## Objective
@@ -21,11 +25,9 @@ A machine learning project that predicts whether a customer is likely to churn b
 
 The Gradient Boosting model achieved a high F1-score (0.91) and precision (0.96), ensuring accurate churn prediction with minimal false positives. Its strong accuracy (0.85) reflects reliable performance across both churned and retained customers.
 ### Final Model Selection: Gradient Boosting Classifier
-🔗 **Live App:**  
+## Live Application
 [Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
-## Sample Screenshot 
-
-## Sample Predictions
+ ## Sample Predictions
 Use the following examples in the app to test behavior:
 ### Likely to Churn
 - Age: 22  
@@ -43,6 +45,7 @@ Use the following examples in the app to test behavior:
 - Gender: Male
   
 **Prediction**: Customer is likely to **Not Churned**
+
 ## Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
