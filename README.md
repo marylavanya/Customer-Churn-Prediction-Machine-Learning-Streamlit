@@ -16,12 +16,12 @@ Customer churn refers to when a customer stops using a company’s service. In t
 - [Business Impact](#business-impact)
 ## 📊Project Overview 
 A machine learning project that predicts whether a customer is likely to churn based on key behavioral indicators. This solution includes an end-to-end pipeline from data cleaning and model training to interactive deployment via Streamlit.
-## 🎯 Objective
+## 🎯Objective
 * Predict customer churn using machine learning to identify at-risk customers early.
 * Analyze customer behavior and demographics to understand churn patterns.
 * Build and compare multiple models to select the best-performing one.
 * Deploy the final model using Streamlit for real-time, user-friendly predictions.
-## 🧠 Model Comparison for Churn Prediction
+## 🧠Model Comparison for Churn Prediction
 | Model                 | F1-Score (Churn=1) | Recall (Churn=1) | Precision (Churn=1) | Accuracy | AUC-ROC  |
 | --------------------- | ------------------ | ---------------- | ------------------- | -------- | -------- |
 | **Gradient Boosting** | 0.91               | 0.87             | 0.96                | 0.85     | 0.85     |
@@ -30,10 +30,10 @@ A machine learning project that predicts whether a customer is likely to churn b
 | **XGBoost**           | 0.87               | 0.81             | 0.95                | 0.79     | 0.84     |
 | **Decision Tree**     | 0.86               | 0.79             | 0.95                | 0.78     | 0.78     |
 
-## ✅ Final Model Selection
+## ✅Final Model Selection
 **Gradient Boosting Classifier** was chosen due to its strong F1-score (0.91) and precision (0.96), ensuring accurate churn prediction with minimal false positives. Its overall accuracy (0.85) reflects solid general performance.
 
- ## 🤖 Sample Predictions
+ ## 🤖Sample Predictions
 Use the following examples in the app to test behavior:
 ### 🔴 Likely to Churn
 - Age: 22  
@@ -53,24 +53,24 @@ Use the following examples in the app to test behavior:
 **Prediction**: Customer is likely to **Not Churned**
 ## 💻How to Run Locally
 To run the app on your own system:
-### 🛠️ Prerequisites
+### 🛠️Prerequisites
 - Python 3.10 or Higher installed   
 - Git installed  
 ### 📝 Steps
-### 📥 1. Clone the repository
+#### 📥 1. Clone the repository
 ```bash
 git clone https://github.com/marylavanya/Customer-Churn-Prediction-Machine-Learning-Streamlit.git
 cd Customer-Churn-Prediction-Machine-Learning-Streamlit
 ```
-### 📦 2. Install dependencies
+#### 📦 2. Install dependencies
 ```
 pip install -r requirements.txt
 ```
-### 🚀 3. Launch the app
+#### 🚀 3. Launch the app
 ```
 streamlit run app.py
 ```
-## 📌 Key Insights
+## 📌Key Insights
 * Customers with lower tenure  are more likely to churn, early engagement is critical.
 * High monthly charges correlate with increased churn.
 * Customers with high bills and short tenure are at highest risk.
@@ -80,7 +80,7 @@ streamlit run app.py
 * Churn increases with age; consider designing age-specific loyalty programs or promotions.
 * Consider onboarding initiatives such as “welcome packages”, “quick start guides”, or “new-customer incentives” to help first-year customers find more value in your service.
 * Offer gifts or discounts to celebrate tenure milestones at 3, 6, and 12 months.
-## 💼 Business Impact
+## 💼Business Impact
  This project empowers strategic decision-making and customer retention efforts through:
 - **Early churn identification:** Helps prevent revenue loss by detecting at-risk customers before they leave.
 - **Revenue growth:** Retaining high-value customers directly boosts recurring revenue and reduces acquisition costs.
