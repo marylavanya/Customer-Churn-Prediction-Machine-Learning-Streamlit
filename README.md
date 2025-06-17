@@ -9,7 +9,7 @@ Customer churn refers to when a customer stops using a company’s service. In t
 - [Objective](objective)
 - [Model Comparison for Churn Prediction](model-comparison-for-churn-prediction)
 - [Final Model Selection](final-model-selection)
-- [Sample Predictions](sample-predictions)
+- 🤖[Sample Predictions](sample-predictions)
 - [Key Insights](key-insights)
 - [Recommendations](recommendations)
 - [Business Impact](business-impact)
