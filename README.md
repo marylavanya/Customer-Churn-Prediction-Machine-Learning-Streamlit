@@ -25,10 +25,9 @@ A machine learning project that predicts whether a customer is likely to churn b
 * Build and compare multiple models to select the best-performing one.
 * Deploy the final model using Streamlit for real-time, user-friendly predictions.
 ## Data Preprocessing (SMOTE Applied)
-* Explored the dataset to understand distribution and identify class imbalance.
-* Detected significant imbalance in the target variable (`Churn`).
-* Applied **SMOTE (Synthetic Minority Over-sampling Technique)** to oversample the minority class (churn = Yes).
-* Ensured a more balanced training set to improve model performance on churn prediction.
+* Explored the dataset to understand distribution and identified class imbalance.
+* Detected significant imbalance between Churn and Not Churned
+* Applied **SMOTE (Synthetic Minority Over-sampling Technique)** to main balance.
 * Split the balanced dataset into training and testing sets.
 ## 🧠Model Comparison for Churn Prediction
 | Model                 | F1-Score (Churn=1) | Recall (Churn=1) | Precision (Churn=1) | Accuracy | AUC-ROC  |
