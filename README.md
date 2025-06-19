@@ -7,6 +7,7 @@ Customer churn refers to the loss of clients or subscribers who stop using a com
 # 📚 Table of contents
 - [Project Overview](#project-overview)
 - [Objective](#objective)
+- [Data Preprocessing (SMOTE Applied)](#data-preprocessing)
 - [Model Comparison for Churn Prediction](#model-comparison-for-churn-prediction)
 - [Final Model Selection](#final-model-selection)
 - [Sample Predictions](#sample-predictions)
@@ -16,11 +17,19 @@ Customer churn refers to the loss of clients or subscribers who stop using a com
 - [Business Impact](#business-impact)
 ## 📊Project Overview 
 A machine learning project that predicts whether a customer is likely to churn based on key behavioral indicators. This solution includes an end-to-end pipeline from data cleaning and model training to interactive deployment via Streamlit.
+
+**SMOTE (Synthetic Minority Over-sampling Technique)** was applied to handle the imbalance in the target class (churn), improving the model’s ability to detect at-risk customers.
 ## 🎯Objective
 * Predict customer churn using machine learning to identify at-risk customers early.
 * Analyze customer behavior and demographics to understand churn patterns.
 * Build and compare multiple models to select the best-performing one.
 * Deploy the final model using Streamlit for real-time, user-friendly predictions.
+## ⚙️ Data Preprocessing
+* Explored the dataset to understand distribution and identify class imbalance.
+* Detected significant imbalance in the target variable (`Churn`).
+* Applied **SMOTE (Synthetic Minority Over-sampling Technique)** to oversample the minority class (churn = Yes).
+* Ensured a more balanced training set to improve model performance on churn prediction.
+* Split the balanced dataset into training and testing sets.
 ## 🧠Model Comparison for Churn Prediction
 | Model                 | F1-Score (Churn=1) | Recall (Churn=1) | Precision (Churn=1) | Accuracy | AUC-ROC  |
 | --------------------- | ------------------ | ---------------- | ------------------- | -------- | -------- |
