@@ -7,7 +7,7 @@ Customer churn refers to the loss of clients or subscribers who stop using a com
 # 📚 Table of contents
 - [Project Overview](#project-overview)
 - [Objective](#objective)
-- [Data Preprocessing (SMOTE Applied)](#data-preprocessing-smote-applied)
+- [Data Preprocessing(SMOTE Applied)](#data-preprocessingsmote-applied)
 - [Model Comparison for Churn Prediction](#model-comparison-for-churn-prediction)
 - [Final Model Selection](#final-model-selection)
 - [Sample Predictions](#sample-predictions)
@@ -24,7 +24,7 @@ A machine learning project that predicts whether a customer is likely to churn b
 * Analyze customer behavior and demographics to understand churn patterns.
 * Build and compare multiple models to select the best-performing one.
 * Deploy the final model using Streamlit for real-time, user-friendly predictions.
-## ⚙️Data Preprocessing (SMOTE Applied)
+## ⚙️Data Preprocessing(SMOTE Applied)
 * Explored the dataset to understand distribution and identify class imbalance.
 * Detected significant imbalance in the target variable (`Churn`).
 * Applied **SMOTE (Synthetic Minority Over-sampling Technique)** to oversample the minority class (churn = Yes).
