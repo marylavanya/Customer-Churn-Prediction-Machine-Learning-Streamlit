@@ -7,7 +7,7 @@ Customer churn refers to the loss of clients or subscribers who stop using a com
 # 📚 Table of contents
 - [Project Overview](#project-overview)
 - [Objective](#objective)
-- [Data Preprocessing (SMOTE Applied)](#data-preprocessing-(smote-applied))
+- [Data Preprocessing (SMOTE Applied)](#data-preprocessing-smote-applied)
 - [Model Comparison for Churn Prediction](#model-comparison-for-churn-prediction)
 - [Final Model Selection](#final-model-selection)
 - [Sample Predictions](#sample-predictions)
