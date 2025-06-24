@@ -6,6 +6,11 @@ Customer churn refers to the loss of clients or subscribers who stop using a com
 [Click here to view the app on Streamlit Cloud](https://customer-churn-prediction-machine-learning-app-qx8zr32djftfbyz.streamlit.app/)
  
  ⚠️ **Note:** This app may pause due to hosting limits. **Click** the prompt(**Yes, get this app back up!**) to resume  it will load in seconds.
+
+ ### 🔍 Sample Prediction Output
+
+<img src="https://github.com/marylavanya/Customer-Churn-Prediction-Machine-Learning-Streamlit/blob/main/Sample%20Predictions.png" alt="Sample Predictions" width="600"/>
+
 # 📚 Table of contents
 - [Project Overview](#project-overview)
 - [Objective](#objective)
